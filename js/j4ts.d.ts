@@ -5,6 +5,7 @@ declare namespace java.util {
         get(index: number): E;
         set(index: number, element: E): E;
         subList(fromIndex: number, toIndex: number): List<E>;
+        sort(c: Comparator<E>): void;
     }
 }
 declare namespace j4ts.util {
